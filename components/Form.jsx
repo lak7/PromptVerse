@@ -1,7 +1,9 @@
-import React from 'react'
+import Link from "next/link";
 
-export const Form = () => {
-  return (
+const Form = ({type,post,submitting,setPost,handleSubmit}) => {
+  return(
     <div>Form</div>
   )
 }
+
+export default Form;
